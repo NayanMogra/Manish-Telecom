@@ -1,0 +1,126 @@
+body
+{
+    width: 100%;
+   
+}
+#slideshow
+        {
+            overflow: visible;
+            width: 100%;
+        }
+h1
+{
+    color: black;
+    font-size: 100px;
+    font-family: 'Kunstler Script';
+    font-weight: bolder;
+    text-shadow: 5px 6px 10px black;
+    border-bottom: 1px solid black;
+    border-bottom-width: medium;
+}
+h3
+{
+    font-size: 50px;
+    font-family: 'Ravie';
+    
+}
+#hovr div
+{
+    margin-top: 50px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown {
+    overflow: visible;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.container
+{
+    overflow: visible;
+    margin-left: 10px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: rgba(0,0,0,.1);
+    transition: 4s;
+    padding: 0px;
+}
+.container img
+{
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+
+}
+.container:hover img:nth-child(4)
+{
+    overflow: visible;
+    opacity: 1;
+    transform: translate(40px,40px)
+}
+
+.container:hover img:nth-child(3)
+{
+    overflow: visible;
+    opacity: .8;
+    transform: translate(30px,30px)
+}
+
+.container:hover img:nth-child(2)
+{
+    overflow: visible;
+    opacity: .6;
+    transform: translate(20px,20px)
+}
+
+.container:hover img:nth-child(1)
+{
+    overflow: visible;
+    opacity: .4;
+    transform: translate(10px,10px)
+}
+
+a
+{
+ text-decoration-line: none;
+ color: white
+   }
+a:hover
+{
+     text-decoration: none;
+    color: white;
+}

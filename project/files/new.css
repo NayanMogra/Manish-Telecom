@@ -1,0 +1,22 @@
+body
+{
+    position: absolute;
+}
+h1
+{
+    font-size: 60px;
+}
+.row div
+{
+    position: inherit;
+}
+a
+{
+ text-decoration-line: none;
+ color: white
+   }
+a:hover
+{
+     text-decoration: none;
+    color: white;
+}
